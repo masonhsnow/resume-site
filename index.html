@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="/images/profile-pic.jpg" />
+
+    <title>Mason Snow | Full Stack Developer</title>
+
+
+    <!-- JQUERY CDN -->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- ScrollReveal CDN -->
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- GOOGLE FONTS CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP CDNs -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <!-- LINKS TO STYLESHEET & JAVASCRIPT -->
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body id="top" class="" cz-shortcut-listen="true">
+    
+    <!-- NAVBAR -->
+  
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#other">Other Skills/Fun Facts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container header-container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left focus-in-expand-fwd">
+          <h1>Mason Snow</h1>
+          <h2>Full-Stack Developer</h2>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+          <ul class="icons no-print">
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/masonhsnow"
+                class="button button--sacnite button--round-l"
+              >
+                <i class="fab fa-github" title="Github link"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/masonhsnow"
+                class="button button--sacnite button--round-l"
+              >
+                <i class="fab fa-instagram" title="Instagram link"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/mason-snow-3747a8113/"
+                class="button button--sacnite button--round-l"
+              >
+                <i class="fab fa-linkedin" title="Linkedin link"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://twitter.com/masonhsnow"
+                class="button button--sacnite button--round-l"
+              >
+                <i class="fab fa-twitter" title="Twitter link"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="email">
+            Email:
+            <a href="mailto:masonhsnow@gmail.com" target="_blank"
+              >masonhsnow@gmail.com</a
+            >
+            <p class="email">
+              Tel:
+              <a href="tel:760-415-7759" target="_blank"
+                >(760) 415-7759</a
+              >
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- ABOUT ME SECTION -->
+        <div id="about-me" class="container intro-container">
+          <h3>About Me</h3>
+          <div class="row clearfix">
+            <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+              <span
+                class="profile-img bounce-in-left"
+                style="background-image: url(/images/profile-pic.jpg)"
+              ></span>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+              <p class="p-desc">
+                Hi, my name is Mason, and I'm a former Digital Marketer turned Full-Stack Developer. I  quit my full-time job
+                as a marketer at the beginning of 2021 to pursue my dream of being a software developer. </p>
+
+                <p>Ever since I was young, I've wanted to learn
+                and make a living by writing code. Unfortunately, I put that dream aside for many years so that I could provide for my family. 
+                I finally got to a point where I could quit working in order to study coding full-time this year, and
+                I've been in love ever since. I'm hoping to land my first position in the tech industry now that my 
+                self-directed bootcamp is coming to a close.
+              </p>
+
+              <br>
+              <br>
+
+              <p><mark>Technologies I am familiar with:</mark> HTML, CSS, Javascript, Bootstrap, jQuery, Node.js, Express.js, MongoDB, SQL, React, & Python.
+              </p>
+
+
+              <ul class="technologies no-print ul-padding">
+                <li>
+                    <i class="fab fa-html5" title="HTML5"></i>
+                </li>
+                <li>
+                    <i class="fab fa-css3" title="CSS3"></i>
+                </li>
+                <li>
+                    <i class="fab fa-js-square" title="JavaScript"></i> 
+                </li>
+                <li>
+                    <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                </li>
+                <li>
+                  <i class="fab fa-node" title="Node"></i>
+              </li>
+              <li>
+                <i class="fab fa-react" title="React"></i>
+              </li>
+              <li>
+                <i class="fab fa-python" title="Python"></i>
+              </li>
+              </ul>
+              
+              <br>
+
+              <p class="p-desc">
+                I am most skilled in: <mark>JavaScript</mark> and
+                <mark>binge watching Netflix</mark>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECTS SECTION -->
+        <div id="projects" class="container intro-container">
+          <h3>Projects</h3>
+
+          <!-- PROJECT 1 -->
+          <div class="row clearfix div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+              <a href="https://forkify-final-mason.netlify.app/" target="_blank">
+              <span
+                class="project-img"
+                style="background-image: url(/images/forkify.jpg)"
+              ></span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=rlxOvTtZ4VA" target="_blank">
+            <button type="button" class="btn btn-light btn-custom heartbeat">Video Walkthrough</button>
+           </a>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+              <div class="projects">
+                <h4>Forkify Web App</h4>
+                <p>Completed Project: <a
+                  href="https://forkify-final-mason.netlify.app/"
+                  target="_blank"
+                  class="link"
+                  >forkify-final-mason.netlify.app/</a
+                ></p>
+                <p>Github Repository: <a
+                  href="https://github.com/masonhsnow/forkify-app"
+                  target="_blank"
+                  class="link"
+                  >github.com/masonhsnow/forkify-app</a
+                ></p>
+                <br />
+
+              </div>
+
+              <p class="quote">
+                This is probably the best app I've created to date. It was built
+                just using HTML, CSS,  Javascript, & web API's,  without the use of
+                external libraries.
+              </p>
+
+              <p class="p-desc">
+                This was the final <mark>capstone</mark> project of my
+                Javascript mastery course. <a href="https://www.youtube.com/watch?v=rlxOvTtZ4VA" target="_blank">Here is a quick video</a> on how the application works and what it is capable of. 
+              </p>
+
+              <p class="p-desc">
+                This project made extensive use of Javascript (as it was a Javascript course), and utilized the MVC architecture. It also made great use of API's, which we were practicing and reinforcing at the time. This project was designed for desktop/laptop aspect ratio's only, and shouldn't be viewed on mobile.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="row clearfix div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+              <a href="https://masonhsnow.github.io/mapty-project/" target="_blank">
+              <span
+                class="project-img"
+                style="background-image: url(/images/mapty-project.jpg)"
+              ></span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=-sdDBesIdY8" target="_blank">
+              <button type="button" class="btn btn-light btn-custom heartbeat">Video Walkthrough</button>
+             </a>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+              <div class="projects">
+                <h4>Mapty Project</h4>
+                <p>Completed Project: <a
+                  href="https://masonhsnow.github.io/mapty-project/"
+                  target="_blank"
+                  class="link"
+                  >masonhsnow.github.io/mapty-project/</a
+                ></p>
+                <p>Github Repository: <a
+                  href="https://github.com/masonhsnow/mapty-project/"
+                  target="_blank"
+                  class="link"
+                  >github.com/masonhsnow/mapty-project/</a
+                ></p>
+                <br />
+
+              </div>
+              <p class="quote">
+                Web application that makes use of the Leaflet external library & local storage/geolocation API's.
+              </p>
+
+              <p class="p-desc">
+                Another super fun project that makes use of external libraries. It can be used to track your cardio workouts in your local area. <a href="https://www.youtube.com/watch?v=-sdDBesIdY8" target="_blank">Here's a video</a> on how it works. Again, this project was designed for desktop/laptop devices only.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="row clearfix div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+              <a href="https://masonhsnow.github.io/bankist-website/" target="_blank">
+              <span
+                class="project-img"
+                style="background-image: url(/images/bankist-website.jpg)"
+              ></span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=pdQddUjneOM" target="_blank">
+              <button type="button" class="btn btn-light btn-custom heartbeat">Video Walkthrough</button>
+             </a>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+              <div class="projects">
+                <h4>Bankist Front End Website</h4>
+                <p>Completed Project: <a
+                  href="https://masonhsnow.github.io/bankist-website/"
+                  target="_blank"
+                  class="link"
+                  >masonhsnow.github.io/bankist-website/</a
+                ></p>
+                <p>Github Repository: <a
+                  href="https://github.com/masonhsnow/bankist-website"
+                  target="_blank"
+                  class="link"
+                  >github.com/masonhsnow/bankist-website</a
+                ></p>
+                <br />
+
+              </div>
+              <p class="quote">
+                Front end website for the Bankist web app that I made in one of my courses.
+              </p>
+
+              <p class="p-desc">
+               This site makes use of a lot of cool, <mark>written from scratch</mark>, Javascript functionalities, that includes things like slow scrolling, lazy loading, load animations, sticky nav bars, tab windows, and a custom made slideshow slider. <a href="https://www.youtube.com/watch?v=pdQddUjneOM" target="_blank">Here's a video</a> that details everything involved. This project was done to practice Javascript programming, and was not developed for mobile aspect ratios.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROJECT 4 -->
+          <div class="row clearfix div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+              <a href="https://masonhsnow.github.io/bankistapp-bank-interface/" target="_blank">
+              <span
+                class="project-img"
+                style="background-image: url(/images/bankist-app.jpg)"
+              ></span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=_T646Bp4Mx4&t=8s" target="_blank">
+              <button type="button" class="btn btn-light btn-custom heartbeat">Video Walkthrough</button>
+             </a>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+              <div class="projects">
+                <h4>Bankist Bank App</h4>
+                <p>Completed Project: <a
+                  href="https://masonhsnow.github.io/bankistapp-bank-interface/"
+                  target="_blank"
+                  class="link"
+                  >masonhsnow.github.io/bankistapp-bank-interface/</a
+                ></p>
+                <p>Github Repository: <a
+                  href="https://github.com/masonhsnow/bankistapp-bank-interface"
+                  target="_blank"
+                  class="link"
+                  >github.com/masonhsnow/bankistapp-bank-interface</a
+                ></p>
+                <br />
+
+              </div>
+              <p class="quote">
+                Web application for the fictional Bankist Bank.
+              </p>
+
+              <p class="p-desc">
+               This app was a fun way to practice a variety of array methods, DOM manipulation, and various API's such as the Internationalization API for time/currencies. It was also very cool putting together the conditions and logic to allow/restrict particular actions from taking place. <a href="https://www.youtube.com/watch?v=_T646Bp4Mx4&t=8s" target="_blank">Here's a video</a> that shows how the app works. Pardon my headband in this video, my hair was long back then :). Once again, this project was not designed for mobile devices.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROJECT 5 -->
+          <div class="row clearfix div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+              <a href="https://masonhsnow.github.io/simon-game/" target="_blank">
+              <span
+                class="project-img"
+                style="background-image: url(/images/simon-game.jpg)"
+              ></span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=sDKyt3FiJ5g" target="_blank">
+              <button type="button" class="btn btn-light btn-custom heartbeat">Video Walkthrough</button>
+             </a>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+              <div class="projects">
+                <h4>Simon Game</h4>
+                <p>Completed Project: <a
+                  href="https://masonhsnow.github.io/simon-game/"
+                  target="_blank"
+                  class="link"
+                  >masonhsnow.github.io/simon-game/</a
+                ></p>
+                <p>Github Repository: <a
+                  href="https://github.com/masonhsnow/simon-game"
+                  target="_blank"
+                  class="link"
+                  >github.com/masonhsnow/simon-game</a
+                ></p>
+                <br />
+
+              </div>
+              <p class="quote">
+                Very fun web application game that functions just like the Simon game I used growing up. Made use of mostly Javascript & jQuery.
+              </p>
+
+              <p class="p-desc">
+                This was a really fun project that I recently made to practice jQuery and Javascript. It works just like the <a href="https://upload.wikimedia.org/wikipedia/commons/c/cd/Simon_Electronic_Game.jpg" target="_blank">Simon game</a> that I used to play as a kid. If you're not sure what game that is, <a href="https://www.youtube.com/watch?v=sDKyt3FiJ5g" target="_blank">check out this video</a> on how it works. This application can work on desktop & mobile devices.
+              </p>
+
+            </div>
+          </div>
+
+          <!-- PROJECT 6 -->
+          <div class="row clearfix div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+              <a href="https://masonhsnow.github.io/pig-game//" target="_blank">
+              <span
+                class="project-img"
+                style="background-image: url(/images/pig-game.jpg)"
+              ></span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=il-_nMl5GvU" target="_blank">
+              <button type="button" class="btn btn-light btn-custom heartbeat">Video Walkthrough</button>
+             </a>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+              <div class="projects">
+                <h4>Pig Game</h4>
+                <p>Completed Project: <a
+                  href="https://masonhsnow.github.io/pig-game/"
+                  target="_blank"
+                  class="link"
+                  >masonhsnow.github.io/pig-game/</a
+                ></p>
+                <p>Github Repository: <a
+                  href="https://github.com/masonhsnow/pig-game"
+                  target="_blank"
+                  class="link"
+                  >github.com/masonhsnow/pig-game</a
+                ></p>
+                <br />
+
+              </div>
+              <p class="quote">
+                Web application game that plays similar to Blackjack, but with a catch. Made with Javascript.
+              </p>
+
+              <p class="p-desc">
+                This web application was done to practice DOM manipulation & other Javascript related principles. It plays very similar to Blackjack, but every time you roll a 0, you lose your score for that round. The first person to reach 50 points wins. <a href="https://www.youtube.com/watch?v=il-_nMl5GvU" target="_blank">Check out this video</a> to see more. This application was designed for desktop & laptop displays only, and should not be viewed on mobile devices.
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- EXPERIENCE SECTION -->
+        <div id="experience" class="container list-container">
+          <h3>Experience</h3>
+
+          <!-- EXPERIENCE 1 -->
+          <div class="row clearfix layout layout-left div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+              <h4>Chappel Digital Marketing</h4>
+              <p><b>Senior Media Buyer</b></p>
+              <p>January 2021 - April 2021</p>
+              <a
+                href="https://www.chappelldigitalmarketing.com/"
+                target="_blank"
+                class="link"
+                >www.chappelldigitalmarketing.com/</a
+              >
+              <p class="no-print aditional-links"></p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+              <p class="quote">
+                Solving marketing problems for eCommerce owners with modern solutions using digital
+                marketing & advertising.
+              </p>
+              <p class="p-desc">
+                <ul>
+                  <li><mark>Managed 2 million dollars</mark> in annual adspend across 10 different ad accounts & verticals</li>
+                  <li>Consulted clients on best practices for organic social media growth</li>
+                  <li>Performed in depth audits for eCommerce sites and provide insights to help optimize
+                    and improve conversion rates</li>
+                  <li>Oversaw Junior Media Buyers and performed weekly audits on their accounts to ensure
+                    that they were meeting target client KPI's
+                    </li>
+                  <li>Reported results to clients monthly & strategized with them on product launches, how to
+                    improve ROAS, and how to increase profitability
+                    </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <!-- EXPERIENCE 2 -->
+          <div class="row clearfix layout layout-left div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+              <h4>ROAR Media</h4>
+              <p><b>Director of Market Strategy</b></p>
+              <p>March 2020 - January 2021</p>
+              <a href="https://www.roarmedia.io/" target="_blank" class="link"
+                >www.roarmedia.io/</a
+              >
+              <p class="no-print aditional-links"></p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+              <p class="quote">
+                Helping online coaches reach their target audiences & scale their businesses.
+              </p>
+              <p class="p-desc">
+                <ul>
+                    <li>Developed and <mark>managed all paid advertising</mark> for all clients (Facebook, Instagram, LinkedIn, &
+                    YouTube ads) for ROAR Media</li> 
+                    <li>Managed $500k+ in adspend across 40+ accounts</li> 
+                    <li>Handled all customer communications, project management, and task management for entire team</li> 
+                    <li>Performed audits for all accounts, new and current, and consulted clients on best
+                        practices and trends for optimal results (case studies upon request)</li> 
+                </ul> 
+              </p>
+            </div>
+          </div>
+
+           <!-- EXPERIENCE 3 -->
+        <div class="row clearfix layout layout-left">
+          <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+            <h4>Reggae Spice Company</h4>
+            <p><b>eCommerce/Operations Manager</b></p>
+            <p>Feb 2018 - March 2020</p>
+            <a href="https://www.reggaespicecompany.com" target="_blank" class="link"
+              >www.reggaespicecompany.com/</a
+            >
+            <p class="no-print aditional-links"></p>
+          </div>
+          <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+            <p class="quote">
+              Sharing amazing instant wet marinades with the world.
+            </p>
+            <p class="p-desc">
+              <ul>
+                  <li>Oversaw and managed production and fulfillment warehouse that manufactured and
+                    shipped 3000+ orders per month
+                    </li> 
+                  <li>Personally managed all paid advertising campaigns on Facebook and Instagram</li> 
+                  <li>Helped raise average monthly volume from 300 orders/month to over 3000/month</li> 
+                  <li>Sourced, branded, and launched all products sold. Excellent at sourcing domestically
+                    and internationally</li> 
+                    <li>Managed all social media accounts</li> 
+                    <li>Handled all customer relations both via social media accounts and support emails</li> 
+                    <li><mark>Raised yearly revenue</mark> by 316% and decreased costs by 20% in first year</li>
+              </ul> 
+            </p>
+          </div>
+        </div>
+        </div>
+
+        <!-- EDUCATION SECTION -->
+        <div id="education" class="container list-container">
+          <h3>Education</h3>          
+
+
+          <!-- EDUCATION 1 -->
+            <div class="row clearfix layout layout-left div-spacer">
+              <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                <h4>Colt Steele: The Modern Python 3 Bootcamp</h4>
+                <p class="underline">July 2021 - Current</p>
+                <p class="no-print aditional-links"></p>
+              </div>
+              <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                <p class="quote">
+                  Fundementals, Data Structures, Conditions & Logic, Lists, Dictionaries, Tuples & Sets, Labdas & Built-In Functions, Modules, Web Scraping, SQL, and more
+                </p>
+                <p class="p-desc">
+                 I have recently begun this Python Bootcamp course by Colt Steele. I've always had a lot of interest in Python and backend development, so as a way to continue learning and improving my abilities after finishing my MERN stack, I will be studying Python and related technologies.
+                </p>
+              </div>
+            </div>
+
+          <!-- EDUCATION 2 -->
+          <div class="row clearfix layout layout-left div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+              <h4>Jonas Schmedtmann: The Complete Javascript Mastery Course 2021</h4>
+              <p class="underline">April 2021 - July 2021</p>
+              <p class="no-print aditional-links"></p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+              <p class="quote">
+                Fundementals, DOM, Data Structures, Algorithms, Logic, Functions, OOP, External Libraries, Promises, Async/Await, Modules & Tooling, Git & more
+              </p>
+              <p class="p-desc">
+                Jonas' Javascript course was amazing. I really wanted to improve my Javascript knowledge and skills, which led me to taking this course. Jonas was an incredible teacher who went into a lot of detail on a plethora of topics. I truly feel as though I understand how to navigate and work with Javascript after <mark>spending 300+ hours</mark> taking this course.
+              </p>
+            </div>
+          </div>
+
+
+           <!-- EDUCATION 3 -->
+           <div class="row clearfix layout layout-left div-spacer">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+              <h4>Angelu Yu: The Complete 2021 Web Development Bootcamp</h4>
+              <p class="underline">March 2021 - May 2021</p>
+              <p class="no-print aditional-links"></p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+              <p class="quote">
+                HTML, CSS, Javascript, Node, React, MongoDB Git & Github, and more
+              </p>
+              <p class="p-desc">
+                Angela's Course was fantastic at getting the fundamentals of web development down, as well as practicing and reinforcing those things with exercises, projects, etc. It gave me <mark>solid foundations</mark> in front-end development, back-end development, and databases.
+              </p>
+            </div>
+          </div>
+
+          <!-- EDUCATION 4 -->
+          <div class="row clearfix layout layout-left">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+              <h4>Utah Valley University</h4>
+              <p>Business Marketing</p>
+              <p class="underline">2016 - 2020</p>
+              <p class="no-print aditional-links"></p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+              <p class="quote">
+                Utah Valley University is an integrated university and community college that educates every student for success in work and life through excellence in engaged teaching, services, and scholarship.
+              </p>
+              <p class="p-desc">
+                While attending UVU, I studied entrepreneurship & marketing, was on the Dean's List, part of the National Honor Society, and finished with a <Mark>3.8 GPA</Mark>.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="other" class="container text-container">
+          <h3>Other Skills/More About Me</h3>
+          <div class="row clearfix">
+            <div class="col-md-12">
+              <h5>Alongside my interests in software development, here are some other fun facts about me.</h5>
+                
+              
+              <ul class="small-spacer">
+                <li>I'm <mark>billingual</mark> (English/Spanish)</li>
+                <li>I love playing baseball, and even <a href="https://www.instagram.com/p/CDxrV-WhAE1/" target='_blank'>manage my own adult team</a> </li>
+                <li>I'm a huge nerd, so I enjoy doing any kind of nerd stuff, including playing video games, reading fantasy books, and going to conventions</li>
+                <li>Being originally from San Diego, I love spending time at the beach (how original, right?)</li>
+                <li>I was a missionary for 2 years in South Texas, helping and teaching whoever needed it. I spent most of my time in border areas, which is how I learned Spanish</li>
+                <li>A few years ago, I managed and operated multiple late night bakeries across Idaho & Utah, and had over 100 employees who worked with us</li>
+                <li>I have two beautiful cats that I love (almost) as much as my gorgeous wife :)</li>
+              </ul>
+
+              <p class="p-desc small-spacer">
+                Thanks for taking the time to view my site! As a reward, enjoy this cute picture of one of my cats. Feel free to
+                contact me any time using the contact links at the <mark><a href="#top"> top of the page</a></mark> :)<br />
+                
+              </p>
+
+              <img
+                  class="timber"
+                  src="/images/timber.jpg"
+                  alt="Timber"
+                  title="Timber"
+                />
+                
+
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="container footer-container">
+      <p>&copy; Mason Snow</p>
+      <p>
+        <a href="mailto:masonhsnow@gmail.com" target="_blank"
+          >masonhsnow@gmail.com</a
+        >&nbsp;|| References upon request
+      </p>
+    </div>
+    
+  </body>
+</html>
